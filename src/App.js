@@ -14,7 +14,7 @@ class App extends Component {
       <div style={styles.container}>
         <h1 style={styles.title}>Las tecnologias del Front</h1>
         <ul style={styles.list}>
-          {this.state.list.map(e => <ul key={e}><li>{e}</li></ul>)}
+          {this.state.list.map(e => <li key={e}>{e}</li>)}
         </ul>
       </div>
     );
