@@ -1,0 +1,1 @@
+list: ['Javascript', 'CSS', 'HTLM', 'React']
